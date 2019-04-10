@@ -17,4 +17,4 @@ cd ./composer.extensions/
 . ../../../common/install.extensions.sh "$@"
 # ------
 
-cd prevdir
+cd $prevdir
