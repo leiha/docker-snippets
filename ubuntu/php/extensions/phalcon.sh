@@ -4,7 +4,7 @@ $PWD/psr.sh
 
 apt-get install -y libpcre3-dev gcc make re2c
 
-git clone --single-branch --branch 3.4.x git://github.com/phalcon/cphalcon.git \
+git clone --single-branch --branch master git://github.com/phalcon/cphalcon.git \
     && cd cphalcon/build \
     && ./install \
     && cd ../.. \
