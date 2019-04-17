@@ -4,8 +4,9 @@ prevdir=$PWD
 basedir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd ${basedir}
 
-curl -sL https://deb.nodesource.com/setup_9.x | bash -
-apt-get update \
+apt-get install -y gnupg apt-transport-https \
+  && curl -sL https://deb.nodesource.com/setup_9.x | bash -
+  && apt-get update \
   && apt-get install -y nodejs
   
 # ------
