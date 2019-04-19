@@ -2,5 +2,5 @@
 
 echo -e "root\root" | passwd
 
-RUN usermod -u $2 $1
-USER $1
+usermod -u $2 $1
+su $1
