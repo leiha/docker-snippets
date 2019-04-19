@@ -3,5 +3,3 @@
 echo -e "root\nroot" | passwd
 
 usermod -u $2 $1
-
-su -l $1
